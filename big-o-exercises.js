@@ -104,6 +104,7 @@ function isWhat(n) {
     return true;
 }
 
+// O(2^n -1), where n = numDisks
 const towerOfHanoi = (numDisks) => {
     const rodA = [];
     const rodB = [];
